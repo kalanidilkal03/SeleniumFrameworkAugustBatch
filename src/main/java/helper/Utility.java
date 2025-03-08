@@ -21,6 +21,14 @@ public class Utility
      * Scroll
      * JSExecutor
      */
+	public void waitForSecond(int seconds)
+	{
+		try {
+			Thread.sleep(seconds*1000);
+		} catch (InterruptedException e) {
+			
+		}
+	}
 	
 	public static String getCurrentDateTime()
 	{
